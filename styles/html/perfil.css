@@ -1,0 +1,51 @@
+#header{color: blue;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.contenedor img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blue;
+}
+
+#yo {
+    color: green;
+    font-weight: bold;
+}
+
+#frase{
+color: red;
+font-style: italic;
+}
+
+.parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.yoo{
+    color: greenyellow;
+    text-shadow: 2px 2px 5px black;
+}
+div{
+    color:black
+
+}
+ul> li{
+    background-color: yellow;
+    list-style: circle;
+}
+
+.objetivo{
+    background-color: gray;
+}
