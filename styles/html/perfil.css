@@ -1,47 +1,58 @@
-#header{color: blue;
-     display: flex;
-    justify-content: center;
-    align-items: center ;
-
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-   
 
+#header h1 {
+  color: blue;
+  margin: 0;
+}
 
 #sobre {
-    color: green;
+  color: green;
 }
 
-
-.yoo{
-    color: green;
-    font-weight: bold;
+.yoo {
+  color: green;
+  font-weight: bold;
 }
 
-#frase{
-color: red;
-font-style: italic;
+#frase {
+  color: red;
+  font-style: italic;
 }
 
 .parrafo {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
-.yoo{
-    color: greenyellow;
-    text-shadow: 2px 2px 5px black;
+.yoo {
+  color: greenyellow;
+  text-shadow: 2px 2px 5px black;
 }
-div{
-    color:black
-
+div {
+  color: black;
 }
-ul> li{
-    background-color: yellow;
-    list-style: circle;
-}
-
-.objetivo{
-    background-color: gray;
+ul > li {
+  background-color: yellow;
+  list-style: circle;
 }
 
+.objetivo {
+  background-color: gray;
+}
 
+.profile-img {
+  width: 120px;
+  height: 120px;
+ 
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  margin-left: 10px;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
