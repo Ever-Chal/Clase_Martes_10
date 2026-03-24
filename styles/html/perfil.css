@@ -1,24 +1,18 @@
 #header{color: blue;
-}
-
-.contenedor{
-    display: flex;
+     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 30px;
-
+    align-items: center ;
 
 }
+   
 
-.contenedor img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid blue;
+
+#sobre {
+    color: green;
 }
 
-#yo {
+
+.yoo{
     color: green;
     font-weight: bold;
 }
